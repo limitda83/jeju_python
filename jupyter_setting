@@ -1,0 +1,11 @@
+# run anaconda prompt commander
+
+jupyter notebook --generate-config
+
+run # jupyter_notebook_config.py
+
+#c.NotebookApp.notebook_dir = ''
+
+-> 주석제거후 '' 안에 경로 작성
+
+c.NotebookApp.notebook_dir = 'C:\user\ympark\Desktop\test'
